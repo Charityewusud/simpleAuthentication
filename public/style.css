@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {	
+	background-color: #7AAE89;
+	font-family: 'Poppins', sans-serif;
+}
+
+.btn { margin: 15px; }
+
+#btn1 {	color: #21412A; }
+
+#btn1:hover { border: 3px #21412A solid; }
+
+#btn2 {	background: #21412A; }
+
+#btn2:hover { border: 3px white solid; }
+
+#index {	height:100vh; }
+
+.authbody {
+	margin-top: 100px;
+}
+
+.title {
+	margin-bottom: 40px;
+}
+
+input { 
+	width: 230px;
+	margin: 10px;
+}
+
+.btn-submit {
+	background-color: #172F1E;
+	border-radius: 10px; 
+}
+
+#inputgroup {	margin-bottom: 20px; }
+
+.signuplogin {
+	color: #172F1E;
+}
+
+#logoutdiv {
+	margin-top: 40vh;
+}
+
+#logout {
+	background-color: #172F1E;
+}
+
+@media only screen and (min-width: 768px){
+	
+	.authbody {
+		margin-top: 170px;
+	}
+
+	input{
+		width: 500px;
+	}
+
+}

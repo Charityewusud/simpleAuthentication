@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+			<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+			 <link rel="stylesheet" href="style.css">
+	</head>
+
+	<body class="text-center align-items-center authbody">
+			<h1 class="fs-3 title fw-bold">Login</h1>
+
+			<form action="/login" method="POST" enctype="">
+
+				<div class="d-flex flex-column align-items-center jusify-content-center inputgroup">
+					<label class="text-white">Email</label>
+					<input type="email" name="email" class="rounded"/>
+				</div>
+
+				<div class="d-flex flex-column align-items-center jusify-content-center inputgroup">
+					<label class="text-white">Password</label>
+					<input type="password" name="password" class="rounded"/>
+				</div>
+
+				<button class="btn-submit btn text-white">Submit</button>
+				
+			</form>
+	
+			<a href="/signupform" class="signuplogin text-decoration-none">Signup</a>
+			
+	</body>
+</html>
