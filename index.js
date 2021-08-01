@@ -141,10 +141,6 @@ app.post('/register', async (req, res) => {
 	})
 
 
-// app.get("/logout",(req,res)=>{
-//     req.logout();
-//     res.redirect("/");
-// });
 
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
